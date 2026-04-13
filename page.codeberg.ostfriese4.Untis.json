@@ -24,8 +24,8 @@
                 {
                     "type" : "git",
                     "url" : "https://codeberg.org/ostfriese4/untis.git",
-                    "tag" : "v2.1",
-                    "commit" : "2bd3b977d09cf733bc37e47a65c705d7d0814de9"
+                    "tag" : "v2.2",
+                    "commit" : "ea59a2d6ccd508bc602ab971e5578868f7b2f906"
                 }
             ]
         }

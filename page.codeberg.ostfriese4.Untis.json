@@ -1,31 +1,31 @@
 {
-    "id" : "page.codeberg.ostfriese4.Untis",
-    "runtime" : "org.gnome.Platform",
-    "runtime-version" : "50",
-    "sdk" : "org.gnome.Sdk",
-    "command" : "untis",
-    "finish-args" : [
+    "id": "page.codeberg.ostfriese4.Untis",
+    "runtime": "org.gnome.Platform",
+    "runtime-version": "50",
+    "sdk": "org.gnome.Sdk",
+    "command": "untis",
+    "finish-args": [
         "--share=network",
         "--share=ipc",
         "--socket=fallback-x11",
         "--device=dri",
         "--socket=wayland"
     ],
-    "cleanup-commands" : [
+    "cleanup-commands": [
         "python3 -m compileall --invalidation-mode=unchecked-hash /app"
     ],
-    "modules" : [
+    "modules": [
         "pypi.json",
         {
-            "name" : "untis",
-            "builddir" : true,
-            "buildsystem" : "meson",
-            "sources" : [
+            "name": "untis",
+            "builddir": true,
+            "buildsystem": "meson",
+            "sources": [
                 {
-                    "type" : "git",
-                    "url" : "https://codeberg.org/ostfriese4/untis.git",
-                    "tag" : "v4.0",
-                    "commit" : "ea15b481515f12238360338d20814e2dc8c38b68",
+                    "type": "git",
+                    "url": "https://codeberg.org/ostfriese4/untis.git",
+                    "tag": "v4.1",
+                    "commit": "11a601b5980671e140744dd61fe579ebba5f6977",
                     "x-checker-data": {
                         "type": "git",
                         "tag-pattern": "^v([\\d.]+)$"

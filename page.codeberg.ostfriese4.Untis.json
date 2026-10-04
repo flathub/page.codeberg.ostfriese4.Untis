@@ -17,15 +17,31 @@
     "modules": [
         "pypi.json",
         {
+            "name" : "libportal",
+            "buildsystem" : "meson",
+            "sources" : [
+                {
+                    "type" : "git",
+                    "url" : "https://github.com/flatpak/libportal.git",
+                    "tag" : "0.11.0",
+                    "commit": "fc4d62cfe131e8494c82f597f92b2234d584c367",
+                    "x-checker-data": {
+                        "type": "git",
+                        "tag-pattern": "^([\\d.]+)$"
+                    }
+                }
+            ]
+        },
+        {
             "name": "untis",
             "builddir": true,
             "buildsystem": "meson",
             "sources": [
                 {
                     "type": "git",
-                    "url": "https://codeberg.org/ostfriese4/untis.git",
-                    "tag": "v4.3.2",
-                    "commit": "89f2de618d7e0826b3f8cc27702863da1b285847",
+                    "url": "https://codeberg.org/ostfriese4/untix.git",
+                    "tag": "v5.0.0",
+                    "commit": "e2c6fb410b39b06d394cead51e3d91b1beccd788",
                     "x-checker-data": {
                         "type": "git",
                         "tag-pattern": "^v([\\d.]+)$"

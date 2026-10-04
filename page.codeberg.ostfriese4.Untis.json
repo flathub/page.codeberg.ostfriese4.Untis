@@ -3,7 +3,7 @@
     "runtime": "org.gnome.Platform",
     "runtime-version": "50",
     "sdk": "org.gnome.Sdk",
-    "command": "untis",
+    "command": "untix",
     "finish-args": [
         "--share=network",
         "--share=ipc",
@@ -13,6 +13,17 @@
     ],
     "cleanup-commands": [
         "python3 -m compileall --invalidation-mode=unchecked-hash /app"
+    ],
+    "cleanup": [
+        "/include",
+        "/lib/python3.13/site-packages/scikit_build_core",
+        "/lib/python3.13/site-packages/pybind11",
+        "/lib/python3.13/site-packages/*.dist-info/RECORD",
+        "/lib/python3.13/site-packages/*.dist-info/METADATA",
+        "/lib/python3.13/site-packages/*.dist-info/WHEEL",
+        "/lib/python3.13/site-packages/*.dist-info/INSTALLER",
+        "/lib/python3.13/site-packages/*.dist-info/REQUESTED",
+        "/lib/python3.13/site-packages/*.dist-info/entry_points.txt"
     ],
     "modules": [
         "pypi.json",
@@ -33,7 +44,7 @@
             ]
         },
         {
-            "name": "untis",
+            "name": "untix",
             "builddir": true,
             "buildsystem": "meson",
             "sources": [
@@ -41,7 +52,7 @@
                     "type": "git",
                     "url": "https://codeberg.org/ostfriese4/untix.git",
                     "tag": "v5.0.0",
-                    "commit": "e2c6fb410b39b06d394cead51e3d91b1beccd788",
+                    "commit": "543fcf3655f1f742c004b1c3ea0a2b7e81f800c6",
                     "x-checker-data": {
                         "type": "git",
                         "tag-pattern": "^v([\\d.]+)$"

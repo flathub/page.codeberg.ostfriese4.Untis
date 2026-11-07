@@ -35,8 +35,8 @@
                 {
                     "type": "git",
                     "url": "https://codeberg.org/ostfriese4/untix.git",
-                    "tag": "v5.0.0",
-                    "commit": "543fcf3655f1f742c004b1c3ea0a2b7e81f800c6",
+                    "tag": "v5.1.1",
+                    "commit": "e738b86f08f1bbbd612d2a9e7b113b47b4814b93",
                     "x-checker-data": {
                         "type": "git",
                         "tag-pattern": "^v([\\d.]+)$"

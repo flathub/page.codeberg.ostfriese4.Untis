@@ -97,8 +97,8 @@
             "sources": [
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/22/1b/ec5b1ac0c4aea3702a20e9c7ee1e21926735cc87159e252616e31e0a87dc/pyotp-2.11.2-py3-none-any.whl",
-                    "sha256": "d693ddda5c2fd2c368a034ec1ad2fbbe0d3f59d9a662ab00f41ae839a0d00474",
+                    "url": "https://files.pythonhosted.org/packages/93/8e/a293e976f73fed42e19cd7921175c6aac66cedbf8bed91766d3506fdea33/pyotp-2.12.0-py3-none-any.whl",
+                    "sha256": "d66830ab614e857c1e1b810b80384bcf7d437972f1e96625686e128e2e17ff83",
                     "x-checker-data": {
                         "type": "pypi",
                         "name": "pyotp",
@@ -186,3 +186,4 @@
         }
     ]
 }
+

@@ -97,8 +97,8 @@
             "sources": [
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/93/8e/a293e976f73fed42e19cd7921175c6aac66cedbf8bed91766d3506fdea33/pyotp-2.12.0-py3-none-any.whl",
-                    "sha256": "d66830ab614e857c1e1b810b80384bcf7d437972f1e96625686e128e2e17ff83",
+                    "url": "https://files.pythonhosted.org/packages/32/d5/ca399f55b474357c42b8d0ee1c0222a22e6f88bbf4588130b75737c3b73b/pyotp-2.12.1-py3-none-any.whl",
+                    "sha256": "2f65978d0a0afe5588ec960c810cbb974ba1957ffbf29775d8d4e1b2d4b8984c",
                     "x-checker-data": {
                         "type": "pypi",
                         "name": "pyotp",
@@ -116,8 +116,8 @@
             "sources": [
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/32/d1/a3652fe2c19134d0d15922177821d863cbd7e842d53a21bbe7e8e3a1b5ac/certifi-2026.10.23-py3-none-any.whl",
-                    "sha256": "e9b54de76e530bb6cf0ccd036787103acb58fd42ba930ea8bf948ddbaa2f61d1",
+                    "url": "https://files.pythonhosted.org/packages/6d/39/5eec3296860b94ac20bb8ed807725b88f6adfab3f343df592afd975f5f86/certifi-2026.11.20-py3-none-any.whl",
+                    "sha256": "7422df25243767b9877031a2248cb14d09ddac9beee846f4cef3d5c9191d488f",
                     "x-checker-data": {
                         "type": "pypi",
                         "name": "certifi",
@@ -126,8 +126,8 @@
                 },
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/fc/ad/d07d7862a62ffa6d79d68074d14823243dd235a77c45262acbf6adeb28bf/charset_normalizer-3.5.2-py3-none-any.whl",
-                    "sha256": "b6b751274acb69d77b3323d6b7dbaa3c7fdfc1eb829b7eb61d262f32e1af9685",
+                    "url": "https://files.pythonhosted.org/packages/d2/0d/07ab8eb9b7015274353eac2add4067bde1ab1b51912bbae505392905eedd/charset_normalizer-3.5.3-py3-none-any.whl",
+                    "sha256": "96e268b0cbda016ac519513294fcd17032264085b600abaac58b93049477e132",
                     "x-checker-data": {
                         "type": "pypi",
                         "name": "charset-normalizer",
@@ -186,4 +186,3 @@
         }
     ]
 }
-
